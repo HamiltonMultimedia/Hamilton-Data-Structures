@@ -12,5 +12,17 @@ public class WorkingWithLists {
         System.out.println(colors.size());
         System.out.println(colors.contains("yellow"));
         System.out.println(colors);
+
+        // Iterating over the array
+        // using the sexy For-Each (:) syntax
+        for (String color : colors) {
+            System.out.println(color);
+        }
+
+        // Iterating over the array
+        // using the built-in forEach() method
+        // and the double colon (::) operator
+        // also known as the Method Reference Operator
+        colors.forEach(System.out::println);
     }
 }
