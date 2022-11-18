@@ -25,7 +25,7 @@ public class WorkingWithLists {
         // also known as the Method Reference Operator
         colors.forEach(System.out::println);
 
-        // Using Iterative loop 
+        // Using Iterative loop
         for (int i = 0; i < colors.size(); i++) {
             System.out.println(colors.get(i));
         }
