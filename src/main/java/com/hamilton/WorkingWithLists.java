@@ -24,5 +24,10 @@ public class WorkingWithLists {
         // and the double colon (::) operator
         // also known as the Method Reference Operator
         colors.forEach(System.out::println);
+
+        // Using Iterative loop 
+        for (int i = 0; i < colors.size(); i++) {
+            System.out.println(colors.get(i));
+        }
     }
 }
