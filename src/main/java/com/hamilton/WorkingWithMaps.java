@@ -19,5 +19,7 @@ public class WorkingWithMaps {
         map.forEach((key, person) -> {
             System.out.println(key + " - " + person);
         });
+        System.out.println(map.getOrDefault(4, new WorkingWithQueues.Person("default", 00)));
+
     }
 }
