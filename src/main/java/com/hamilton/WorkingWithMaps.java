@@ -20,6 +20,6 @@ public class WorkingWithMaps {
             System.out.println(key + " - " + person);
         });
         System.out.println(map.getOrDefault(4, new WorkingWithQueues.Person("default", 00)));
-
+        System.out.println(map.values());
     }
 }
